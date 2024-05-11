@@ -1,6 +1,6 @@
 html {
     font-family: "Open Sans", sans-serif;
-    background: rgb(34, 142, 179);
+    background:whitesmoke;
   }
   a {
     text-decoration: none;
@@ -12,7 +12,7 @@ html {
   #container {
     position: relative;
     display: flex;
-    box-shadow: 2px 2px 20px grey;
+
   }
   #profile {
     flex: 25%;
@@ -23,6 +23,7 @@ html {
     padding-bottom: 20px;
     margin: 10% 0 10% 10%;
     background-color: rgb(170, 221, 238);
+    box-shadow: 4px 0px 20px grey;
   }
   #info-cards {
     flex: 55%;
@@ -34,6 +35,7 @@ html {
     height: 100%;
     flex-direction: column;
     background-color: white;
+    box-shadow: 4px 0px 20px grey;
   }
   #image {
     position: relative;
